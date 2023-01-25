@@ -1,0 +1,98 @@
+/*
+--- 01 TYPOGRAPHY SYSTEM
+
+--Font-size(px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+--Spacing System(px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+--font-weights:
+Default: 400
+medium:
+semi-bold:
+bold:
+
+
+--Line-height
+Default:400
+small
+medium
+semi-large: 800
+large: 900
+
+--Letter spacing
+small:0.5px
+
+--- 02 COLORS
+--Background
+ #eef1f6
+ #fff (For hero form)
+-Tints: 
+ #ffb2c2
+#ff3e66
+-Shades: 
+
+
+--- 03 BORDER-RADIUS
+Large:100px
+Small:10px
+Circle: 50%;
+---04 SHADOWS
+0 2rem 2rem rgba(0, 0, 0, 0.08);
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px*/
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.container-big {
+  max-width: 125rem;
+  padding: 0 6.4rem;
+}
+
+.container-small {
+  max-width: 120rem;
+  /* padding: 0 3.2rem; */
+}
+
+.right-shifted-container {
+  max-width: 130rem;
+  padding: 0 0 0 2.4rem;
+}
+
+.centered-container {
+  max-width: 125rem;
+  padding: 6.4rem 2.4rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2--cols {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid--3--cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4--cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid--6--cols {
+  grid-template-columns: repeat(6, 1fr);
+}

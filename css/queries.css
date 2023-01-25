@@ -1,0 +1,885 @@
+/*  1em = 1rem = 16px */
+/****************************************/
+/* BELOW 1200px (for landscape tablets) */
+/****************************************/
+
+@media (max-width: 77em) {
+  .centered-container {
+    padding: 6.4rem 4.8rem;
+  }
+
+  .top-nav-list .big-nav {
+    margin-left: 30rem;
+  }
+
+  .hero {
+    grid-template-columns: 1fr 1.3fr;
+  }
+
+  .adv-heading {
+    padding: 0 36rem;
+  }
+
+  .adv-image {
+    padding: 0;
+  }
+
+  .advantage-boxes {
+    padding: 8rem 4rem 0 4rem;
+  }
+}
+
+/****************************************/
+/* BELOW 1152px (for small computer) */
+/****************************************/
+@media (max-width: 72em) {
+  .header {
+    gap: 4.8rem;
+  }
+  .top-nav-list {
+    gap: 1.6rem;
+  }
+
+  .top-nav-link:link,
+  .top-nav-link:visited {
+    font-size: 1.4rem;
+  }
+
+  .top-nav-list .big-nav {
+    margin-left: 25rem;
+  }
+
+  .hero-section {
+    padding: 9rem 0 0 0;
+  }
+  .hero {
+    grid-template-columns: 1fr 1.3fr;
+  }
+
+  .hero-txt-box {
+    font-size: 3rem;
+    padding: 0 3.8rem 2rem 3.8rem;
+  }
+
+  .hero-add {
+    font-size: 1.4rem;
+  }
+  .start-form {
+    width: 86%;
+  }
+
+  .feature-box {
+    padding: 3.2rem 3.5rem;
+  }
+
+  .heading-box {
+    font-size: 1.8rem;
+    margin: 1.6rem 0 1.2rem 0;
+  }
+
+  .box-discription {
+    font-size: 1.4rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .read-txt {
+    font-size: 1.2rem;
+  }
+
+  .top-market {
+    font-size: 1.6rem;
+  }
+  .market-heading-secondary {
+    font-size: 3rem;
+  }
+  .heading-discription {
+    font-size: 1.4rem;
+  }
+  .qualities {
+    gap: 1.6rem;
+    margin-top: 2rem;
+  }
+
+  .heading-tertiary {
+    font-size: 1.4rem;
+  }
+
+  .quality-discription {
+    font-size: 1.1rem;
+  }
+
+  .adv-heading {
+    font-size: 3.6rem;
+    padding: 0 24rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .advantage-boxes {
+    padding: 0;
+  }
+  .advantage-sec {
+    grid-area: 2.3fr 1fr;
+  }
+
+  .advantage-secttion {
+    padding: 6.4rem 0rem 6.4rem 8rem;
+  }
+
+  .advantage-box {
+    padding: 2.4rem 1.2rem 3.2rem 2.4rem;
+  }
+
+  .watch-block {
+    grid-template-columns: 1fr;
+  }
+  .pic-center-icn {
+    left: 37%;
+    top: 37%;
+  }
+  .small-download-icn {
+    right: 51%;
+  }
+  .watch-text {
+    grid-row: 2;
+    padding: 0.8rem 0 0 1rem;
+  }
+
+  .watch-icns {
+    display: none;
+  }
+
+  .watch-heading {
+    margin-bottom: 24px;
+  }
+  .watch-discription {
+    padding-right: 3.2rem;
+    line-height: 1.6;
+  }
+
+  .numeric-data-boxes {
+    display: flex;
+    gap: 8rem;
+  }
+
+  .numeric-data-box {
+    padding: 2.4rem;
+  }
+  .data-discription {
+    font-size: 1.2rem;
+  }
+  .app-discription {
+    font-size: 1.4rem;
+  }
+
+  .plan-text {
+    font-size: 1.2rem;
+  }
+  .list {
+    padding: 1.6rem 0;
+  }
+  .list-item {
+    margin-bottom: 1.4rem;
+  }
+
+  .test-img-box {
+    margin-left: 8rem;
+  }
+  .pricing-plan {
+    padding: 2.8rem 2.4rem 4.8rem 3.2rem;
+  }
+  .first--plan,
+  .second--plan {
+    padding: 2.8rem 2.4rem 0rem 3.2rem;
+    height: 87%;
+  }
+
+  .third--plan {
+    height: 95%;
+  }
+
+  .test-text-box {
+    width: 95%;
+  }
+
+  .contacts a,
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+/****************************************/
+/*       BELOW 966px ( Tablates )       */
+/****************************************/
+
+@media (max-width: 61em) {
+  .grid--2--cols {
+    grid-template-columns: 1fr;
+  }
+  .grid--3--cols {
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid--6--cols {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .header {
+    gap: 3.2rem;
+  }
+  .top-nav-list {
+    gap: 1.6rem;
+  }
+
+  .top-nav-link:link,
+  .top-nav-link:visited {
+    font-size: 1.2rem;
+  }
+
+  .top-nav-list .big-nav {
+    margin-left: 4rem;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-img-box {
+    width: 40%;
+
+    justify-self: flex-end;
+  }
+
+  .hero-add {
+    font-size: 1.8rem;
+  }
+  .start-form {
+    width: 80%;
+  }
+
+  .how-txt {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .how-discription-txt {
+    font-size: 1.4rem;
+  }
+
+  .all-features-button {
+    padding: 0.8rem 1.2rem;
+  }
+  .all-feature-button-txt {
+    font-size: 1.2rem;
+  }
+  .all-feature-button-arow {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+
+  .market-section {
+    grid-template-columns: 1fr;
+  }
+  .heading-tertiary {
+    font-size: 2rem;
+  }
+  .--second {
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .quality-discription {
+    font-size: 1.6rem;
+  }
+  .advantage-boxes {
+    margin-bottom: 3.2rem;
+  }
+  .advantage-secttion {
+    padding: 6.4rem 4rem;
+  }
+  .adv-heading {
+    font-size: 3rem;
+    padding: 0 17rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .numeric-data-boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .numeric-data-box {
+    padding: 1rem;
+    margin-bottom: 0;
+  }
+  .data-discription {
+    font-size: 1.8rem;
+  }
+  .big-pic--left {
+    width: 100%;
+  }
+  .app-section {
+    display: block;
+    padding: 0 4.8;
+  }
+  .app-heading {
+    font-size: 3.6rem;
+  }
+  .app-discription {
+    font-size: 1.2rem;
+  }
+
+  .first--plan,
+  .second--plan {
+    height: 105%;
+  }
+
+  .third--plan {
+    height: 90%;
+    grid-column: 1/-1;
+    justify-self: center;
+    margin-top: 3rem;
+    background-color: #ffffff;
+  }
+
+  .testimonial-section {
+    padding: 1rem 1.8rem !important;
+  }
+  .testimonial-inside {
+    padding: 3.2rem 0rem;
+  }
+  .test-img-box {
+    margin-left: 1.6rem;
+  }
+  .testimonial-text {
+    font-size: 1.4rem;
+  }
+
+  .top-logos {
+    row-gap: 3rem;
+    column-gap: 4rem;
+  }
+  .bottom-logos {
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5rem;
+    row-gap: 4rem;
+  }
+
+  .centered-logo {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+  .footer-content {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 6rem;
+  }
+  /* --Font-size(px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+--Spacing System(px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
+}
+
+/****************************************/
+/*   BELOW 695px ( small Tablates )     */
+/****************************************/
+
+@media (max-width: 44em) {
+  html {
+    /* 9/16= 56.2*/
+    font-size: 50%;
+  }
+  .mobile-nav-btn {
+    display: block;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .top-nav {
+    position: absolute;
+    background-color: rgba(230, 212, 212, 0.856);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0;
+    pointer-events: none;
+    visibility: visible;
+  }
+
+  .top-nav-list {
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+
+  .top-nav-link:link,
+  .top-nav-link:visited {
+    font-size: 3.2rem;
+  }
+  .big-nav {
+    list-style: none;
+    margin-left: 0rem;
+  }
+  .top-nav-link.nav-big:link,
+  .top-nav-link.nav-big:visited {
+    font-size: 1.8rem;
+    margin-right: 1rem;
+    padding: 1.2rem 1.2rem;
+  }
+  .small-download-icn {
+    right: 47.3%;
+  }
+  .small-download-icn::after {
+    display: none;
+  }
+}
+
+/****************************************/
+/*   BELOW 550px ( Mobile phone )       */
+/****************************************/
+
+@media (max-width: 34em) {
+  .grid--3--cols {
+    grid-template-columns: 1fr;
+  }
+  .grid--4--cols {
+    grid-template-columns: 1fr;
+  }
+  .top-nav-link.nav-big:link,
+  .top-nav-link.nav-big:visited {
+    font-size: 1.6rem;
+    margin-right: 1rem;
+    padding: 1.5rem 1.2rem;
+  }
+  .big-nav {
+    padding: 1.5rem 1.2rem;
+  }
+
+  .hero-main-txt {
+    font-size: 3.6rem;
+  }
+  .start-form {
+    width: 100%;
+  }
+
+  .how-discription {
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+
+  .all-features-button {
+    padding: 1.2rem 3.2rem;
+  }
+  .all-feature-button-txt {
+    font-size: 1.6rem;
+  }
+  .feature-box {
+    text-align: center;
+  }
+  .box-discription {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .read-mor {
+    justify-content: center;
+    font-size: 1.2rem;
+  }
+  .feature-box {
+    padding: 2.8rem 2.8rem;
+  }
+  .market-img {
+    display: none;
+  }
+
+  .marketing-text {
+    padding: 3.2rem 4rem;
+  }
+  .top-market {
+    text-align: center;
+  }
+  .market-heading-secondary {
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 800;
+  }
+  .heading-discription {
+    text-align: center;
+  }
+  .qualities {
+    flex-direction: column;
+  }
+  .quality-icn {
+    color: #32c36a;
+    width: 3.4rem;
+    height: 3.4rem;
+  }
+  .quality-text {
+    padding-top: 0;
+  }
+  .heading-tertiary {
+    margin-bottom: 0.6rem;
+  }
+  .qualities {
+    gap: 2.8rem;
+  }
+  .advantage-box {
+    width: 90%;
+  }
+  .adv-heading {
+    padding: 0 11rem;
+    margin-bottom: 1.2rem;
+  }
+  .adv-discription {
+    font-size: 1.4rem;
+  }
+  .adv-image {
+    display: flex;
+    justify-content: center;
+  }
+  .adv-img {
+    width: 75%;
+  }
+  .how-txt,
+  .how-discription-txt {
+    text-align: left;
+  }
+  .how-txt {
+    text-align: center;
+    margin-bottom: 0.4rem;
+  }
+  .numeric-data-boxes {
+    gap: 0;
+  }
+  .numeric-data-box {
+    height: 85%;
+    padding-top: 1rem;
+    background-color: #ffffff;
+  }
+  .counter-icn {
+    width: 35%;
+    height: 35%;
+    margin-bottom: 0.6rem;
+  }
+  .numeric-data-box span {
+    font-size: 4.4rem;
+  }
+
+  .data-discription {
+    font-size: 2rem;
+  }
+  .watch-heading {
+    margin-bottom: 0.8rem;
+  }
+  .get-btn {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+  .pic-center-icn::after {
+    border-bottom-color: #ffffff;
+  }
+  .pic-center-icn::before {
+    display: none;
+  }
+  .pic-center-icn {
+    left: 40%;
+    top: 30%;
+  }
+  .small-download-icn {
+    right: 38%;
+  }
+  .small-download-icn::after {
+    display: none;
+  }
+  .small-pic {
+    width: 100%;
+  }
+  .app-heading {
+    font-size: 3.4rem;
+    letter-spacing: -0.6px;
+  }
+  .app-discription {
+    font-size: 1.6rem;
+  }
+  .pricing-plans {
+    gap: 4.8rem;
+  }
+  .pricing-plan {
+    border-radius: 6px;
+  }
+  .pricing-heading {
+    font-size: 3.8rem;
+  }
+
+  .pricing-discription {
+    font-size: 1.6rem;
+  }
+  .third--plan {
+    justify-self: normal;
+    background-color: #ffffff;
+    z-index: 1;
+    margin-top: 0;
+    height: 95%;
+  }
+  .testimonial-section {
+    padding: 1rem 1.8rem 0 1.8rem !important;
+    margin: 0 4.8rem;
+  }
+  .testimonial-inside {
+    grid-template-columns: 1fr;
+    gap: 3.2rem;
+    padding: 3.2rem 0 0.2rem 0;
+  }
+  .test-img-box,
+  .test-text-box {
+    justify-self: center;
+  }
+  .testimonial-text {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .arrows {
+    display: none;
+  }
+  .test-info {
+    justify-content: center;
+  }
+  .review-icns {
+    margin-bottom: 0.4rem;
+  }
+  .test-name p {
+    text-align: center;
+  }
+  .bottom-logos {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 2.9rem;
+  }
+  .footer-content {
+    justify-items: center;
+    gap: 3.2rem;
+    padding-bottom: 0;
+  }
+  .footer-appie-logo {
+    text-align: center;
+  }
+  .social-list {
+    justify-content: center;
+  }
+  .nav-col,
+  .address-col {
+    text-align: center;
+  }
+  .contacts a,
+  p {
+    font-size: 1.6rem;
+  }
+  .location br {
+    display: none;
+  }
+  .footer-app-btns {
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 3.2rem;
+  }
+  .copy-right {
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 1.2rem;
+  }
+  .go-top {
+    right: 1.2rem;
+  }
+}
+
+/****************************************/
+/*     BELOW 415px ( small Phones)    */
+/****************************************/
+
+@media (max-width: 26em) {
+  .header {
+    padding: 0 3.2rem;
+  }
+  .logo {
+    width: 10rem;
+    height: 2.8rem;
+  }
+  .big-nav {
+    padding: 1.5rem 0rem;
+  }
+  .icn-mobole-nav {
+    height: 2.8rem;
+    width: 2.8rem;
+  }
+  .top-nav-link.nav-big:link,
+  .top-nav-link.nav-big:visited {
+    padding: 1.2rem 0.8rem;
+  }
+  .hero-section {
+    padding-top: 6rem;
+  }
+  .hero-main-txt {
+    font-size: 3rem;
+  }
+  .hero-add {
+    font-size: 1.6rem;
+  }
+  .hero-txt-box {
+    padding: 0 2.8rem 2rem 2.8rem;
+  }
+  .k-members::after {
+    top: 25px;
+    left: 0px;
+  }
+  .how-txt,
+  .how-discription-txt {
+    text-align: center;
+  }
+  .how-discription-txt {
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+  }
+  .box-discription {
+    font-size: 1.2rem;
+  }
+  .marketing-text {
+    padding: 3.2rem 2.7rem;
+  }
+  .top-market {
+    font-size: 1.4rem;
+  }
+  .market-heading-secondary {
+    text-align: center;
+    font-size: 2.2rem;
+    padding-bottom: 1rem;
+  }
+  .heading-discription {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+  .heading-tertiary {
+    font-size: 1.6rem;
+  }
+  .quality-1,
+  .quality-2 {
+    gap: 0.6rem;
+  }
+  .icon-inner,
+  .ionicon,
+  svg {
+    height: 95%;
+    width: 95%;
+  }
+  .quality-discription {
+    font-size: 1.2rem;
+  }
+  .heading-tertiary {
+    margin-bottom: 0.2rem;
+  }
+  .advantage-box {
+    width: 100%;
+  }
+  .adv-heading {
+    padding: 0 5.4rem;
+  }
+  .adv-tertiary-heading {
+    font-size: 2rem;
+  }
+  .adv-tertiary-discription {
+    font-size: 1.4rem;
+  }
+  .advantage-sec {
+    gap: 1rem;
+    margin-top: 32px;
+  }
+  .second-how,
+  .--second {
+    text-align: left;
+  }
+  .pic-center-icn {
+    left: 40%;
+    top: 20%;
+  }
+  .pic-center-icn::after {
+    top: -5%;
+    left: -6%;
+  }
+  .small-download-icn {
+    right: 32%;
+    top: 40%;
+  }
+  .watch-text {
+    grid-row: 2;
+    padding: 0.8rem 0 0 0;
+  }
+  .watch-heading {
+    font-size: 2rem;
+  }
+  .watch-discription {
+    font-size: 1.4rem;
+  }
+  .get-btn {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .app-heading {
+    font-size: 3rem;
+  }
+  .app-discription {
+    font-size: 1.4rem;
+  }
+  .ios-source,
+  .android-source {
+    font-size: 1.2rem;
+  }
+  a span {
+    font-size: 2rem;
+  }
+  .app-btn {
+    padding: 1rem 4rem 0.8rem 1.6rem;
+  }
+  .pricing-heading {
+    font-size: 3.2rem;
+    letter-spacing: -0.5px;
+  }
+  .pricing-discription {
+    font-size: 1.4rem;
+  }
+  .pricing-plans {
+    margin-top: 3.6rem;
+  }
+  .testimonial-text {
+    font-size: 1.2rem;
+  }
+  .testimonial-img {
+    width: 10.8rem;
+    height: 10.8rem;
+  }
+  .fa-star {
+    font-size: 1rem;
+    color: #ffb848;
+    margin-right: 0.2rem;
+  }
+  .test-info {
+    padding: 0.8rem 0 2.4rem 0;
+  }
+  .logo-col p {
+    font-size: 1.4rem;
+  }
+  .location {
+    font-size: 1.3rem;
+  }
+  .footer-app-btn {
+    gap: 0;
+    padding: 0.4rem 1rem;
+  }
+  .footer-source-info {
+    font-size: 1.4rem;
+  }
+  .copy-right {
+    font-size: 1.4rem;
+  }
+  .go-top {
+    font-size: 2.2rem;
+    padding: 0.6rem 0.8rem;
+  }
+}
